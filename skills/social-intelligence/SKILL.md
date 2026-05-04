@@ -1,15 +1,19 @@
 ---
 name: social-intelligence
 description: >-
-  Search and analyze social media content across Reddit, Instagram, TikTok,
-  X/Twitter, Facebook, LinkedIn, and YouTube. Sentiment analysis, audience
-  conversation mining, creator/influencer research, product perception analysis,
-  and cross-platform social presence audits. Use this skill whenever the user
-  asks about social media presence, brand reputation, "what are people saying
-  about [brand]", social sentiment, influencer activity, trending conversations,
-  audience perception, or wants to find posts/content about a brand or topic.
-  Also trigger for questions about creators, UGC, viral content, or community
-  reactions.
+  Search and analyze organic social media content and sentiment across Reddit,
+  Instagram, TikTok, X/Twitter, Facebook, LinkedIn, and YouTube. Sentiment
+  analysis, audience conversation mining, creator/influencer research, product
+  perception, UGC discovery, and cross-platform social audits. Use this skill
+  whenever the user asks "what are people saying about [brand]", "how is
+  [brand] perceived", "find posts about [topic]", "any chatter on [trend]",
+  "who's talking about us on Reddit", "show me TikToks of [product]", "is
+  [brand] going viral", or mentions social sentiment, brand reputation,
+  audience perception, creator activity, influencers, UGC, viral content,
+  Reddit threads, TikTok trends, or community reactions — even if they don't
+  explicitly say "social media". Also trigger for product review mining and
+  competitor brand reputation comparisons. Do NOT trigger for paid ads (use
+  Ad Intelligence) or for first-party owned-channel analytics.
 ---
 
 # Social Intelligence

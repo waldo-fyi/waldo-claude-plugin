@@ -1,15 +1,20 @@
 ---
 name: archival-knowledge
 description: >-
-  Search and retrieve previously captured brand intelligence from stored signals,
-  insights, reports, and documents within a Waldo Space. Covers signal feeds
-  (brand mentions, owned media, paid ads, category news, management activity,
-  audience conversations, trending topics) and insight feeds (brand insights,
-  ideas, trend insights). Use this skill whenever the user asks about existing
-  brand data, archived signals, "what insights do we have on [brand]", "what's
-  been trending", "show me brand mentions", "any signals about [topic]", or
-  wants to search previously captured research. Requires an active Waldo
-  workspace with configured signal/insight feeds.
+  Search and retrieve previously captured brand intelligence from stored
+  signals, insights, reports, and feed documents inside a Waldo workspace.
+  Covers signal feeds (brand mentions, owned media, paid ads, category news,
+  management activity, audience conversations, trending topics) and insight
+  feeds (brand insights, ideas, trend insights). Use this skill whenever the
+  user asks about archived data inside Waldo — "what insights do we have on
+  [brand]", "show me brand mentions", "pull up our [feed type]", "any signals
+  about [topic]", "what did we capture about [event]", "what feeds do we
+  have" — or references the brand space ("the Nike space", "our Adidas
+  space"). Always load this skill before workspace MCP tools (space_list,
+  feed_list, feed_get_items, search_documents) — even for simple-looking
+  requests. Do NOT trigger for live web research (use Web Research) or live
+  social searches (use Social Intelligence) — only for what's already been
+  captured.
 ---
 
 # Archival Knowledge

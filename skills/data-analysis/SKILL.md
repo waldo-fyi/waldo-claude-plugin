@@ -1,14 +1,19 @@
 ---
 name: data-analysis
 description: >-
-  Analyze structured data files (CSV, Excel, PDF tables) and datasets. Performs
-  calculations, statistical analysis, trend identification, comparisons, and
-  data transformations. Use this skill whenever the user provides data files,
-  asks for quantitative analysis, wants to "crunch the numbers", compare
-  metrics, analyze a spreadsheet, build a pivot table, calculate growth rates,
-  or asks questions like "what does this data show", "break down these numbers",
-  "compare Q3 vs Q4", or "analyze this CSV". Also trigger when users reference
-  files stored in their Waldo workspace (spreadsheets, reports, uploaded docs).
+  Analyze structured data files (CSV, Excel, PDF tables, JSON) and datasets.
+  Performs calculations, statistical analysis, trend identification,
+  period-over-period comparisons, growth-rate math, pivot tables, distribution
+  analysis, and data transformations. Use this skill whenever the user provides
+  a data file, asks for quantitative analysis, says "crunch the numbers",
+  "compare Q3 vs Q4", "what does this data show", "break down these numbers",
+  "analyze this CSV", "build a pivot", "calculate growth rate", "find
+  outliers", or references files stored in their Waldo workspace
+  (spreadsheets, reports, uploaded docs). Also trigger when the user pastes a
+  table or asks to reformat tabular data. Do NOT trigger for ad performance
+  metrics from third-party platforms (we have files, not API access to ad
+  accounts), and do NOT trigger for live brand signals — route those to
+  Archival Knowledge.
 ---
 
 # Data Analysis

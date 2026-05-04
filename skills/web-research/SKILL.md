@@ -1,14 +1,19 @@
 ---
 name: web-research
 description: >-
-  Structured deep web research methodology supplementing Claude's built-in web
-  search. Provides multi-source research with PDF analysis, webpage screenshot
-  capture for visual/UX analysis, and synthesized findings with citations. Use
-  this skill for research tasks that benefit from Waldo's specialized tools —
-  market research, competitive analysis, brand deep dives, visual/UX audits,
-  PDF/report analysis, or multi-source investigations requiring structured
-  methodology. Combines Waldo tools with any other available search tools for
-  the best results.
+  Conduct deep multi-source web research with PDF analysis, page screenshots,
+  and visual/UX audits. Use this skill for any non-trivial research that
+  benefits from going beyond a single web search — market research, competitive
+  brand deep-dives, category landscape analysis, visual or UX audits of a
+  competitor's website or product, multi-page synthesis, or
+  PDF/whitepaper/earnings-report/SEC-filing analysis. Trigger when the user
+  says "research [brand/topic]", "do a deep dive on [X]", "compare [A] vs [B]",
+  "audit [website]", "what does [brand] do", "summarize this PDF", "analyze
+  this whitepaper", "how does [competitor] position", or asks any open-ended
+  brand, category, or competitor question that needs more than a quick lookup
+  — even for a "simple" question if multiple sources or a screenshot would
+  improve the answer. Do NOT trigger for ad library searches (use Ad
+  Intelligence) or social sentiment (use Social Intelligence).
 ---
 
 # Web Research

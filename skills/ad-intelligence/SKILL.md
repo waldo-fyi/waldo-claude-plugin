@@ -1,13 +1,19 @@
 ---
 name: ad-intelligence
 description: >-
-  Search and analyze paid advertising across Meta, Google, and LinkedIn ad
-  libraries. Competitive creative analysis, advertiser discovery, and regional
-  ad presence mapping. Use this skill whenever the user mentions competitor ads,
-  ad creative strategy, paid media presence, advertising trends, ad spend, or
-  asks things like "what ads is [brand] running", "show me competitor creatives",
-  "how is [brand] advertising", or "compare ad strategies". Also trigger for
-  questions about ad libraries, ad formats, or media buying insights.
+  Search and analyze paid advertising creatives across Meta, Google, and
+  LinkedIn ad libraries. Competitive ad creative analysis, advertiser discovery,
+  regional ad presence mapping, ad format breakdowns, and messaging audits. Use
+  this skill whenever the user mentions competitor ads, ad creative strategy,
+  paid media presence, advertising trends, or asks things like "what ads is
+  [brand] running", "show me [competitor] creatives", "how is [brand]
+  advertising", "what's [brand] saying in their ads", "compare ad strategies",
+  "ad library", "find ads for [keyword]", or wants to inspect any specific
+  brand's paid creative output — even if they don't say the word "ad". Also
+  trigger for messaging analysis, hook/value-prop comparisons, or regional
+  campaign mapping. Do NOT trigger for ad performance metrics, ROAS, CTR, or
+  spend numbers — we have creatives, not first-party analytics — route those
+  to general Claude. Also defer to Social Intelligence for organic posts.
 ---
 
 # Ad Intelligence
