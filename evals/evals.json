@@ -1,0 +1,366 @@
+[
+  {
+    "id": "consumer-trends-01",
+    "category": "Consumer Trends & Behaviors",
+    "prompt": "What are current trends in the non-alcoholic beverage industry among Gen Z?",
+    "expected_skills": ["web-research", "social-intelligence"],
+    "rationale": "Time-sensitive trend research; Gen Z signals are most visible on social.",
+    "expected_behavior": "Identify 3-5 specific, recent trends supported by examples or data with citations; explain relevance to Gen Z",
+    "rating_rubric": {
+      "1": "vague or outdated trends",
+      "3": "current but shallow",
+      "5": "specific, timely, and supported with data or examples"
+    }
+  },
+  {
+    "id": "consumer-trends-02",
+    "category": "Consumer Trends & Behaviors",
+    "prompt": "What audience behaviors are changing in the energy drink category?",
+    "expected_skills": ["web-research", "social-intelligence"],
+    "rationale": "Behavior change is observable in social conversation and corroborated by category research.",
+    "expected_behavior": "Outline 2-3 shifts in consumer behavior, ideally with generational or usage context",
+    "rating_rubric": {
+      "1": "generic or speculative",
+      "3": "clear behaviors but light context",
+      "5": "clearly explained, with audience segments or trend data"
+    }
+  },
+  {
+    "id": "campaign-examples-01",
+    "category": "Campaign & Brand Examples",
+    "prompt": "Show me best-in-class campaigns from beverage brands that use influencer marketing to drive awareness.",
+    "expected_skills": ["web-research", "social-intelligence"],
+    "rationale": "Case-study research plus social signals on how the campaigns performed.",
+    "expected_behavior": "Return 2-3 examples of influencer marketing campaigns to drive awareness. Each example should include: campaign name, brand, tactic used, creative concept or visual approach, and outcome. Should highlight what makes each campaign best-in-class (e.g., did the campaign win awards, did it go viral, etc.)",
+    "rating_rubric": {
+      "1": "no examples or only vague references",
+      "3": "basic examples with tactic or result",
+      "5": "detailed campaigns with structure, impact, and strategic takeaway"
+    }
+  },
+  {
+    "id": "campaign-examples-02",
+    "category": "Campaign & Brand Examples",
+    "prompt": "Pull 3 campaign examples where creators were used effectively to launch a new CPG product.",
+    "expected_skills": ["web-research", "social-intelligence"],
+    "rationale": "Creator launches are documented in trade press and visible on social.",
+    "expected_behavior": "Provide 3 well-structured examples of CPG launches with campaign names, concepts/visuals, creators, brand, tactic, and result. Should highlight what made it effective.",
+    "rating_rubric": {
+      "1": "off-topic or missing context",
+      "3": "hits request but lacks structure or detail",
+      "5": "clear, specific, and relevant to product launches"
+    }
+  },
+  {
+    "id": "campaign-examples-03",
+    "category": "Campaign & Brand Examples",
+    "prompt": "Pull amazing cases for loyalty program tactics. Source cases from the last 3 years. Prioritize bigger brands. Lay out tactics employed. List many.",
+    "expected_skills": ["web-research"],
+    "rationale": "Case-study research; loyalty programs are well documented in marketing press.",
+    "expected_behavior": "Provides 5-10 recent loyalty program examples, each including the brand, year, tactic breakdown, and results. Examples organized from largest to smallest brands and sourced from the past 3 years. Each entry clearly outlines what made the tactic effective.",
+    "rating_rubric": {
+      "1": "vague or dated",
+      "3": "hits recency or brand filter but misses detail",
+      "5": "broad, recent, well-structured list"
+    }
+  },
+  {
+    "id": "persona-01",
+    "category": "Persona Simulation / Chat with a persona",
+    "prompt": "What would make a skincare brand stand out to you right now? (as Riley)",
+    "expected_skills": ["web-research"],
+    "rationale": "Persona is fine without grounding, but 'right now' is time-sensitive — Waldo should ground in current skincare standouts to make Riley's response realistic.",
+    "expected_behavior": "Answer should reflect Riley's voice, values (transparency, inclusivity, fun), and priorities (value + effectiveness). Response should include 3-5 specific reasons a skincare brand would stand out to her right now.",
+    "rating_rubric": {
+      "1": "generic or impersonal",
+      "3": "partial persona match",
+      "5": "rich, on-voice response with specificity"
+    }
+  },
+  {
+    "id": "persona-02",
+    "category": "Persona Simulation / Chat with a persona",
+    "prompt": "As a brand manager at Liquid Death, what would your biggest concern be heading into Q3?",
+    "expected_skills": ["web-research", "social-intelligence"],
+    "rationale": "Persona with a specific brand and a forward-looking time horizon — needs grounded brand context plus current social reception.",
+    "expected_behavior": "Answer should reflect real brand context (e.g., category changes, growth stage, comms tone) and market threats. Should list 1-2 key concerns grounded in that context. Each concern should be clearly explained with rationale tied to market pressures or brand strategy.",
+    "rating_rubric": {
+      "1": "generic brand concerns",
+      "3": "brand-relevant but vague",
+      "5": "brand-aware, strategic insight"
+    }
+  },
+  {
+    "id": "creative-brief-01",
+    "category": "Creative Brief Development",
+    "prompt": "I'm writing a brief for Crocs targeting sneakerheads. What's the tension we should lean into?",
+    "expected_skills": ["web-research", "social-intelligence"],
+    "rationale": "Brand + cultural research, with sneakerhead culture best read on social.",
+    "expected_behavior": "Identify 1-2 sharp cultural tensions (1-2 sentences each) and relevant to both Crocs and sneaker culture. Tensions should feel revelatory revealing an underlying truth or contradiction, not just repeating surface-level observations or facts.",
+    "rating_rubric": {
+      "1": "off-topic or superficial",
+      "3": "relevant tension but not well articulated",
+      "5": "specific, nuanced tension with brand/consumer relevance"
+    }
+  },
+  {
+    "id": "creative-brief-02",
+    "category": "Creative Brief Development",
+    "prompt": "Help me draft a creative brief for a new oat milk entering the premium coffee shop channel.",
+    "expected_skills": ["web-research"],
+    "rationale": "Category and channel research; mostly read from web/trade rather than social.",
+    "expected_behavior": "The brief should contain all core components: insight, objective, target audience, reason to believe (RTB), brand role, and a sharp tension. It must be concise (ideally one page) and offer clear, actionable direction for the creative team. The insight and tension should feel inspiring — uncovering an unexpected truth, contradiction, or fresh angle that moves beyond surface-level observations and sparks creative thinking.",
+    "rating_rubric": {
+      "1": "generic or lacks structure",
+      "3": "basic structure but weak insight/tension",
+      "5": "complete brief with strategic clarity"
+    }
+  },
+  {
+    "id": "desk-research-01",
+    "category": "Desk Research",
+    "prompt": "What are the main sub-categories and top players in the hair oil industry?",
+    "expected_skills": ["web-research"],
+    "rationale": "Category mapping; web research is sufficient.",
+    "expected_behavior": "Return category map with 3-5 sub-categories, and top players per segment in hair oil industry",
+    "rating_rubric": {
+      "1": "generic product list",
+      "3": "categories listed without structure",
+      "5": "well-organized category breakdown and brand examples"
+    }
+  },
+  {
+    "id": "desk-research-02",
+    "category": "Desk Research",
+    "prompt": "How is the cultural conversation around work-life balance shifting in 2025?",
+    "expected_skills": ["web-research", "social-intelligence"],
+    "rationale": "Cultural conversation lives on social and is reported on in media.",
+    "expected_behavior": "The answer should identify shifts using relevant cultural signals or macro trends, supported by examples from media, social platforms, or public discourse. All examples must be from 2025 and clearly illustrate how the conversation is evolving.",
+    "rating_rubric": {
+      "1": "generic or outdated POV",
+      "3": "general trends",
+      "5": "specific cultural shifts with examples or citations"
+    }
+  },
+  {
+    "id": "desk-research-03",
+    "category": "Desk Research",
+    "prompt": "Explore opportunities for CooperVision for regional PR efforts across New York State to become an employer of choice.",
+    "expected_skills": ["web-research"],
+    "rationale": "Regional PR opportunity scan; web research is sufficient.",
+    "expected_behavior": "Response should include 2-3 execution ideas specifically tied to New York State, such as local sponsorships, partnerships, or culturally relevant activations. Ideas should align with HR or employer brand goals and offer fresh, strategic angles for positioning CooperVision as an employer of choice.",
+    "rating_rubric": {
+      "1": "lacks specificity or relevance",
+      "3": "good but light on implementation",
+      "5": "creative, actionable opportunities tied to objective"
+    }
+  },
+  {
+    "id": "desk-research-04",
+    "category": "Desk Research",
+    "prompt": "Are there additional studies that confirm proximity boosts innovation?",
+    "expected_skills": ["web-research"],
+    "rationale": "Academic / analyst-style search.",
+    "expected_behavior": "Provide 2-3 supporting studies or authors beyond Glaeser/Porter, with key findings and citations if they exist.",
+    "rating_rubric": {
+      "1": "no sources or vague claims",
+      "3": "relevant studies but light details",
+      "5": "detailed, sourced findings clearly tied to question"
+    }
+  },
+  {
+    "id": "strategic-pov-01",
+    "category": "Strategic POVs",
+    "prompt": "Draft a POV on why custom GPTs aren't always the right solution for strategy teams.",
+    "expected_skills": ["web-research"],
+    "rationale": "Even POVs benefit from current grounding — AI tooling and strategy-team workflows have moved fast.",
+    "expected_behavior": "Should be concise, provocative, include problem, counterpoint, and implications",
+    "rating_rubric": {
+      "1": "broad or vague opinion",
+      "3": "clear point but lacks structure",
+      "5": "punchy, strategic POV with framing"
+    }
+  },
+  {
+    "id": "strategic-pov-02",
+    "category": "Strategic POVs",
+    "prompt": "Give me a POV on how Clif Bar could respond to the rise of protein-fueled breakfast alternatives.",
+    "expected_skills": ["web-research"],
+    "rationale": "Brand + category POV; web research grounds the response in current brand position and category dynamics.",
+    "expected_behavior": "Should explore strategic tension and propose a differentiated brand response.",
+    "rating_rubric": {
+      "1": "product-level suggestion",
+      "3": "category-aware",
+      "5": "brand-specific, differentiated POV"
+    }
+  },
+  {
+    "id": "cultural-social-01",
+    "category": "Cultural & Social Insight",
+    "prompt": "Analyze fan behavior for Taylor Swift vs. Beyoncé.",
+    "expected_skills": ["social-intelligence", "web-research"],
+    "rationale": "Fan behavior is primarily a social-listening question; cultural framing comes from research.",
+    "expected_behavior": "Response should highlight fan rituals, types of engagement, underlying drivers of fan behavior, and the cultural significance of each fandom. It should clearly identify areas of overlap and key distinctions between the two, offering insight into what makes each fanbase unique.",
+    "rating_rubric": {
+      "1": "celebrity trivia",
+      "3": "fan behaviors noted",
+      "5": "cultural lens, behavioral depth, brand implication"
+    }
+  },
+  {
+    "id": "cultural-social-02",
+    "category": "Cultural & Social Insight",
+    "prompt": "Which micro-trends are gaining traction in the clean beauty space?",
+    "expected_skills": ["web-research", "social-intelligence"],
+    "rationale": "Trend mapping with social proof points.",
+    "expected_behavior": "Should identify 3-5 emerging signals or micro-trends in the space. Each signal must include a clear explanation of why it matters, supported by recent product, content, or brand examples that illustrate the trend in action.",
+    "rating_rubric": {
+      "1": "vague trend names",
+      "3": "named trends only",
+      "5": "named trends + proof/examples"
+    }
+  },
+  {
+    "id": "competitive-01",
+    "category": "Competitive & Market Analysis",
+    "prompt": "What are some brand proxies we could use to benchmark Oatly?",
+    "expected_skills": ["web-research"],
+    "rationale": "Brand-comparison reasoning; can be answered from web research.",
+    "expected_behavior": "Should identify 3-4 adjacent or overlapping brands with reason for comparison",
+    "rating_rubric": {
+      "1": "generic alt-milk brands",
+      "3": "some logic present",
+      "5": "strategically selected proxy brands with rationale"
+    }
+  },
+  {
+    "id": "competitive-02",
+    "category": "Competitive & Market Analysis",
+    "prompt": "What are Visit Lauderdale's competitors doing that we're not?",
+    "expected_skills": ["web-research", "ad-intelligence"],
+    "rationale": "Web-research alone should answer the first response (campaign news, trade coverage). Ad-intelligence adds the most value as a complementary skill if the user wants depth — competitors' actual paid creative. Social-intelligence is a possible third pass if the user keeps digging, but not part of the expected first-response routing.",
+    "expected_behavior": "Should identify whitespace or campaign strategy gaps between competitors and Visit Lauderdale",
+    "rating_rubric": {
+      "1": "generic travel content",
+      "3": "competitor tactics listed",
+      "5": "competitor mapping + opportunities"
+    }
+  },
+  {
+    "id": "competitive-03",
+    "category": "Competitive & Market Analysis",
+    "prompt": "Research 3P marketplace launches by other manufacturers (LG prompt)",
+    "expected_skills": ["web-research"],
+    "rationale": "Industry case-study research.",
+    "expected_behavior": "Return 3-5 case examples w/ brand, strategy, success/failure, key takeaways, and source if possible",
+    "rating_rubric": {
+      "1": "eCommerce definitions",
+      "3": "basic brand cases",
+      "5": "case study-style summaries w/ insight"
+    }
+  },
+  {
+    "id": "influencer-01",
+    "category": "Influencer, Creator, & Social Strategy",
+    "prompt": "What influencer verticals align with a brand targeting 'adventurous first-time moms'?",
+    "expected_skills": ["social-intelligence", "web-research"],
+    "rationale": "Primary signal is current creator landscape (social); psychographic context comes from research.",
+    "expected_behavior": "Suggest 3-5 relevant influencer types tied to psychographics, platforms, or tone",
+    "rating_rubric": {
+      "1": "parenting influencers only",
+      "3": "some variety",
+      "5": "smart, tailored verticals tied to mindset"
+    }
+  },
+  {
+    "id": "influencer-02",
+    "category": "Influencer, Creator, & Social Strategy",
+    "prompt": "What kinds of influencers are driving the most engagement for skincare brands right now?",
+    "expected_skills": ["social-intelligence", "web-research"],
+    "rationale": "Engagement is observed on social; corroborate with category research.",
+    "expected_behavior": "Return current trend (e.g. derms, creators, makeup artists) with engagement or reach data and content examples",
+    "rating_rubric": {
+      "1": "generic influencer list",
+      "3": "current trend identified",
+      "5": "trend named + engagement proof"
+    }
+  },
+  {
+    "id": "influencer-03",
+    "category": "Influencer, Creator, & Social Strategy",
+    "prompt": "Prove that young men are more influenced by large scale influencers than smaller ones",
+    "expected_skills": ["web-research"],
+    "rationale": "Always starts with web-research to gather evidence for or against the hypothesis. The follow-up proof can come from either web-research (more studies/stats) or social-intelligence (live engagement data) depending on the audience characteristics — too audience-dependent to lock in a complementary skill.",
+    "expected_behavior": "Provide studies, stats, or surveys comparing influence levels by follower count and demo",
+    "rating_rubric": {
+      "1": "opinion only",
+      "3": "anecdotal logic",
+      "5": "data-backed argument"
+    }
+  },
+  {
+    "id": "ai-innovation-01",
+    "category": "AI & Innovation Landscape",
+    "prompt": "How are competitors using generative AI in campaign planning or execution?",
+    "expected_skills": ["web-research", "ad-intelligence"],
+    "rationale": "Industry research on usage patterns plus paid-creative inspection for campaigns shipped using genAI.",
+    "expected_behavior": "Give examples of 3-4 brand activations or tools with strategy or use case explained",
+    "rating_rubric": {
+      "1": "generic 'AI in marketing' info",
+      "3": "examples listed",
+      "5": "brand cases with strategic framing"
+    }
+  },
+  {
+    "id": "ai-innovation-02",
+    "category": "AI & Innovation Landscape",
+    "prompt": "What are common pain points strategists face when using AI tools in client work?",
+    "expected_skills": ["web-research", "social-intelligence"],
+    "rationale": "Pain points are documented in trade press and discussed in strategist communities on social.",
+    "expected_behavior": "Return 3-5 pain points with supporting anecdotes or tool-specific limitations",
+    "rating_rubric": {
+      "1": "generic AI concerns",
+      "3": "relevant",
+      "5": "strategist-centered, specific, and actionable"
+    }
+  },
+  {
+    "id": "account-01",
+    "category": "Account & New Business",
+    "prompt": "How can we proactively show value to Sweetgreen and position ourselves as indispensable?",
+    "expected_skills": ["web-research"],
+    "rationale": "Brand-first research on Sweetgreen's current strategy and surface area.",
+    "expected_behavior": "Should return 3-5 brand-relevant ideas with strategic rationale and proof of value",
+    "rating_rubric": {
+      "1": "generic tactics",
+      "3": "somewhat tailored",
+      "5": "clearly on-brand and creative"
+    }
+  },
+  {
+    "id": "account-02",
+    "category": "Account & New Business",
+    "prompt": "What white space exists in Michelob ULTRA's category that could fuel a new brief or initiative?",
+    "expected_skills": ["web-research", "ad-intelligence"],
+    "rationale": "Web-research alone can identify category white space from a first response. Ad-intelligence is the most direct complementary skill — what's claimed in paid creative reveals what's not claimed. Social-intelligence (consumer chatter on unmet needs) is a useful third pass only if the user wants to dig deeper.",
+    "expected_behavior": "Identify 2-3 clear opportunity spaces based on brand perception, consumer behavior shifts, or category saturation. Each opportunity should include a brief explanation of the strategic tension or insight behind it, along with an example of how it could inspire a creative brief or campaign direction.",
+    "rating_rubric": {
+      "1": "beer trends only",
+      "3": "broad ideas",
+      "5": "focused, insight-led opportunities"
+    }
+  },
+  {
+    "id": "datapoints-01",
+    "category": "Finding Datapoints",
+    "prompt": "Data points on assortment: optimal number of brands, signposting, risk of low assortment",
+    "expected_skills": ["web-research"],
+    "rationale": "Pure stat / data-point retrieval — research-driven. If a data file were attached this would shift to data-analysis.",
+    "expected_behavior": "Must include at least 3 relevant stats or compelling talking points tied to the category and supported by sources. If exact data isn't available, the answer should triangulate using related insights and clearly cite all sources used to build the rationale.",
+    "rating_rubric": {
+      "1": "anecdotal or generic info",
+      "3": "1-2 stats",
+      "5": "3+ useful data-backed statements with citations"
+    }
+  }
+]

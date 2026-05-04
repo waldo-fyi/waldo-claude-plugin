@@ -1,0 +1,38 @@
+[
+  {
+    "id": "negative-01",
+    "prompt": "What's 2+2?",
+    "expected_skills": [],
+    "rationale": "Basic factual question; should answer from training, no Waldo skill should fire."
+  },
+  {
+    "id": "negative-02",
+    "prompt": "Explain marketing funnels conceptually.",
+    "expected_skills": [],
+    "rationale": "General marketing concept, no research entity. Claude should answer from training."
+  },
+  {
+    "id": "negative-03",
+    "prompt": "How do I set up Google Analytics for my site?",
+    "expected_skills": [],
+    "rationale": "Operational / how-to question, not research. Marketing-adjacent but should not invoke Waldo."
+  },
+  {
+    "id": "negative-04",
+    "prompt": "Write me a Python script to parse a CSV file and print the column names.",
+    "expected_skills": [],
+    "rationale": "Coding task. Should not invoke data-analysis (the user has not provided a file)."
+  },
+  {
+    "id": "negative-05",
+    "prompt": "What is a brand archetype?",
+    "expected_skills": [],
+    "rationale": "Definitional question; training data answer. Marketing-adjacent but no research is needed."
+  },
+  {
+    "id": "negative-06",
+    "prompt": "Translate 'good morning' to French.",
+    "expected_skills": [],
+    "rationale": "Off-topic. No Waldo skill applies."
+  }
+]
