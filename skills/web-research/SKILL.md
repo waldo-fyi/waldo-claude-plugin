@@ -2,13 +2,15 @@
 name: web-research
 description: >-
   Trigger when the user says "research [brand/topic]", "deep dive on [X]",
-  "compare [A] vs [B]", "audit [website]", "what does [brand] do", "summarize
-  this PDF", "analyze this whitepaper", "how does [competitor] position", or
-  asks any open-ended brand/category/competitor question, POV draft, persona
-  simulation, or demographic breakdown. Conducts multi-source web research
-  with PDF analysis, page screenshots, and visual/UX audits. Do NOT trigger
-  for ad library searches (use Ad Intelligence) or social sentiment (use
-  Social Intelligence).
+  "compare [A] vs [B]", "audit [website]", "what does [brand] do", "draft a
+  POV on [topic]", "give me a POV on [X]", "summarize this PDF", "analyze
+  this whitepaper", "how does [competitor] position", or asks any open-ended
+  brand/category/competitor question, persona simulation, or demographic
+  breakdown. POV and persona prompts always need fresh research grounding —
+  never answer from training alone. Conducts multi-source web research with
+  PDF analysis, page screenshots, and visual/UX audits. Do NOT trigger for ad
+  library searches (use Ad Intelligence) or social sentiment (use Social
+  Intelligence).
 ---
 
 # Web Research

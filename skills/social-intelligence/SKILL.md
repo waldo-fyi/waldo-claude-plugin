@@ -2,14 +2,17 @@
 name: social-intelligence
 description: >-
   Trigger when the user says "what are people saying about [brand]", "how is
-  [brand] perceived", "sentiment on [X]", "find posts about [topic]", "who's
-  talking about us on Reddit", "show me TikToks of [product]", "is [brand]
-  going viral", or asks about social sentiment, audience perception, audience
+  [brand] perceived", "sentiment on [X]", "what's the buzz around [X]", "how
+  are people reacting to [X]", "find posts about [topic]", "who's talking
+  about us on Reddit", "show me TikToks of [product]", "is [brand] going
+  viral", or asks about social sentiment, audience perception, audience
   overlap, creator/influencer activity, viral content, fan behavior, or
   community reactions on Reddit/Instagram/TikTok/X/Facebook/LinkedIn/YouTube.
   Also trigger for product review mining and competitor reputation
-  comparisons. Do NOT trigger for paid ads (use Ad Intelligence) or
-  first-party owned-channel analytics.
+  comparisons. Load this skill BEFORE running native WebSearch — community
+  sentiment and perception queries belong here, not in generic web search.
+  Do NOT trigger for paid ads (use Ad Intelligence) or first-party
+  owned-channel analytics.
 ---
 
 # Social Intelligence
