@@ -1,6 +1,7 @@
 {
   "name": "waldo-fyi",
-  "description": "Waldo strategy agent skills for ad intelligence, social listening, web research, data analysis, and archival knowledge — powered by the Waldo MCP connector",
+  "description": "Waldo strategy agent skills for ad intelligence, social listening, web research, trends research, data analysis, and archival knowledge — powered by the Waldo MCP connector",
+  "version": "1.4.1",
   "author": {
     "name": "Waldo"
   },

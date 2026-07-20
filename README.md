@@ -1,6 +1,6 @@
 # Waldo Claude Plugin
 
-The `waldo-fyi` Claude Code plugin — strategy-agent skills for ad intelligence, social listening, web research, data analysis, and archival knowledge — powered by the Waldo MCP connector at `https://mcp.waldo.fyi/strategy`.
+The `waldo-fyi` Claude Code plugin — strategy-agent skills for ad intelligence, social listening, web research, trends research, data analysis, and archival knowledge — powered by the Waldo MCP connector at `https://mcp.waldo.fyi/strategy`.
 
 Distributed via the public mirror at https://github.com/waldo-fyi/waldo-claude-plugin.
 
