@@ -95,7 +95,7 @@ Thin-data re-searches use Round 1 limits (`limit: 10`). Honor explicit user requ
 
 **Reddit exception — `reddit_search_posts` and `reddit_search_comments`:**
 
-- Neither tool accepts `limit`. Keep the first 10 (Round 1) or 5 (Round 2) results; discard the rest.
+- Neither tool accepts `limit`. Keep the first 10 (Round 1) or 5 (Round 2) results; discard the rest — that's this workflow's sample budget, not a platform ceiling. Both tools return `hasNextPage` and a `cursor`; only use them if a task genuinely needs a further page beyond the round budget.
 - `reddit_search_posts`: pass `"relevance": "top"` by default to surface high-engagement results first. Use `"relevance": "new"` for time-sensitive analyses (crisis, breaking event).
 - `reddit_search_comments`: pass `"relevance": "top"` by default.
 - For additional time narrowing, combine with `date` (e.g., `"date": "day"`, `"week"`, `"month"`).
@@ -217,9 +217,10 @@ Match the time range to the user's request. If unspecified, infer from context.
 - Start with `reddit_search_communities` to discover relevant subreddits, then search within them.
 - `reddit_search_comments` searches comment text directly — prefer this over fetching full threads per post.
 - **Parameter rules for `reddit_search_posts` and `reddit_search_comments`:**
-  - `limit`: not supported.
+  - `limit`: not supported. Page size is set by the upstream vendor; the response's `hasNextPage` is what tells you whether more results exist.
   - `relevance`: default `"top"` for both tools. Allowed values: `"relevance"`, `"hot"`, `"top"`, `"new"`, `"comments"`. Use `"new"` for time-sensitive analyses.
   - `date`: use for time-based narrowing (`"hour"`, `"day"`, `"week"`, `"month"`, `"year"`, `"all"`).
+  - `cursor`: the previous response's `cursor`, to fetch the next page. Resend every other argument unchanged. Stay within the round budget above — reach for this only when a task genuinely needs more than one page.
 
 ### Instagram
 
