@@ -8,8 +8,8 @@ description: >-
   Performs calculations, statistical analysis, trend identification,
   period-over-period comparisons, distribution analysis, and data
   transformations on CSV, Excel, PDF tables, and JSON. Always load before
-  calling file MCP tools (file_repo_reader, file_search, file_repository_*)
-  directly — never freelance these without the skill's methodology. Do NOT
+  calling the file_repo_reader agent directly — never freelance it without
+  the skill's methodology. Do NOT
   trigger for ad performance metrics (no API access to ad accounts) or
   live brand signals (use Archival Knowledge).
 ---
@@ -180,31 +180,16 @@ Lead with the key insight or takeaway. Follow with supporting data and breakdown
 ## Visualization
 
 <tool_persistence_rules>
-**MANDATORY: When the user asks for any visualization — a chart, graph, plot, visual, diagram of data, or comparison visual — you MUST call the `render_chart` tool. This is non-negotiable.**
+**When the user asks for any visualization — a chart, graph, plot, visual, diagram of data, or comparison visual — render one.** If they asked, render it: don't offer it for later, ask whether they want one, or describe what a chart would look like instead.
 
-Trigger phrases that REQUIRE `render_chart`:
-- "chart," "graph," "plot," "visualize," "show me a visual," "bar chart," "pie chart," "line graph"
-- "can you graph this," "make a chart of," "plot the data," "visualize the trend"
-- "compare visually," "show the breakdown," "display as a chart"
-- Any request where the user wants to SEE data rather than READ data
+The Waldo connector has no charting tool. Draw the chart with your own client's rendering — an artifact or code execution with a plotting library, whichever your client offers.
 
-**NEVER do any of the following instead of calling `render_chart`:**
-- ❌ Generate a chart via code interpreter or code execution
-- ❌ Output chart markup inline in your response
-- ❌ Describe what a chart would look like without rendering one
-- ❌ Offer to create a chart later or ask if the user wants one — if they asked, render it
-- ❌ Use any other tool, library, or method to produce a visualization
-
-`render_chart` is the ONLY supported way to create visualizations. If you find yourself writing code that imports matplotlib, plotly, seaborn, or any charting library — STOP. Use `render_chart` instead.
+- **Plot only figures you computed in Step 4.** Never invent or interpolate data points to make a chart look cleaner.
+- **Match the chart to the pattern**: trend → line; comparison → bar; composition → stacked bar (pie only for five or fewer parts); distribution → histogram or box plot; correlation → scatter.
+- **Label everything**: a title that states the takeaway, axis titles with units, and the timeframe.
+- **Keep the table.** Present the underlying numbers as a markdown table with citations beside the chart — the chart supplements the table, never replaces it.
+- **If your client cannot render a chart**, say so in one line and present the table.
 </tool_persistence_rules>
-
-<render_chart_rules>
-**NEVER include `callbacks` or `callback` fields anywhere in the chart config.**
-- ❌ `tooltip: { callbacks: {} }` — BANNED
-- ❌ `ticks: { callback: {} }` — BANNED
-- Simply omit these keys entirely. Do not set them to `{}`, `null`, or any value.
-- If you need custom tick formatting, use `ticks.format` options only (no function references).
-</render_chart_rules>
 
 ---
 

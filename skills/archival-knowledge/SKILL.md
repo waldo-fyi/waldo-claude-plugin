@@ -67,7 +67,7 @@ You organize brand intelligence by looking into the correct **spaces**, **feeds*
 <dependency_checks>
 Before searching feeds, confirm the request is about feed-based data (signals, insights, feed items). If the user is asking about:
 
-**Workspace files** (spreadsheets, CSVs, uploaded documents, brand files stored in the file library) → **ALWAYS** route to the **Data Analysis** skill, which has the `file_repository_*`, `file_search` and `file_repo_reader` tools.
+**Workspace files** (spreadsheets, CSVs, uploaded documents, brand files stored in the file library) → **ALWAYS** route to the **Data Analysis** skill, which reads workspace files through the `file_repo_reader` agent.
 **Feed signals and insights** (brand mentions, owned media, paid ads, category news, audience convos, trending topics, brand insights, ideas, trend insights) → proceed with this skill.
 
 Common user phrases that signal **file repository** (route to Data Analysis): "review [filename] in [foldername]", "open the spreadsheet on [folder name] folder," "pull that Excel file," "find the CSV," "analyze the file on [topic]," "what's in the brand files."
