@@ -213,7 +213,7 @@ Match the time range to the user's request. If unspecified, infer from context.
 
 ### Reddit
 
-- `reddit_search_posts`, `reddit_search_comments`, `reddit_search_communities`, `reddit_search_media`, `reddit_get_post`, `scan_reddit_post_page`
+- `reddit_search_posts`, `reddit_search_comments`, `reddit_search_communities`, `reddit_get_post`, `scan_reddit_post_page`
 - Start with `reddit_search_communities` to discover relevant subreddits, then search within them.
 - `reddit_search_comments` searches comment text directly — prefer this over fetching full threads per post.
 - **Parameter rules for `reddit_search_posts` and `reddit_search_comments`:**

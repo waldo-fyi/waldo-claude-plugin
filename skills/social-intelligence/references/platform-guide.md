@@ -2,7 +2,7 @@
 
 ## Reddit
 
-- `reddit_search_posts`, `reddit_search_comments`, `reddit_search_communities`, `reddit_search_media`, `reddit_get_post`, `scan_reddit_post_page`
+- `reddit_search_posts`, `reddit_search_comments`, `reddit_search_communities`, `reddit_get_post`, `scan_reddit_post_page`
 - Start with `reddit_search_communities` to discover relevant subreddits, then search within them.
 - `reddit_search_comments` searches comment text directly — prefer this over fetching full threads.
 - **No `limit` parameter.** Use `sort: "top"` by default (or `sort: "new"` for time-sensitive). Use only first 10 (Round 1) or 5 (Round 2) results — a workflow budget, not the true result count; `hasNextPage`/`cursor` are there if a task genuinely needs to page past it.
