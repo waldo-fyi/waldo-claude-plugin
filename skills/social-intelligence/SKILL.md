@@ -110,7 +110,7 @@ Thin-data re-searches use Round 1 limits (`limit: 10`). Honor explicit user requ
 
 ### Comments Retrieval
 
-Do not call comment-retrieval tools (`*_get_post_comments`, `get_tweet_replies`, `youtube_get_video_comments`, `scan_reddit_post_page`) on the initial request unless the user explicitly asks for comment analysis. Search results and post-level data are sufficient for sentiment classification. Comments are a depth tool — use them only when the user asks to go deeper on specific posts or threads after reviewing the initial analysis.
+Do not call comment-retrieval tools (`*_get_post_comments`, `twitter_get_tweet_replies`, `youtube_get_video_comments`, `scan_reddit_post_page`) on the initial request unless the user explicitly asks for comment analysis. Search results and post-level data are sufficient for sentiment classification. Comments are a depth tool — use them only when the user asks to go deeper on specific posts or threads after reviewing the initial analysis.
 
 ### Media Analysis
 
