@@ -1,20 +1,6 @@
 ---
 name: social-intelligence
-description: >-
-  Trigger when the user says "what are people saying about [brand]", "how is
-  [brand] perceived", "sentiment on [X]", "what's the buzz around [X]", "how
-  are people reacting to [X]", "show me TikToks of [product]", "is [brand]
-  going viral", or asks about social sentiment, audience perception, audience
-  overlap, creator/influencer activity, viral content, fan behavior, or
-  reactions on Reddit/Instagram/TikTok/X/Facebook/LinkedIn/YouTube. ALSO
-  trigger on requests for SPECIFIC reputation moments: "examples of brands
-  being tone-deaf", "[brand] backlash", "[brand] controversy", "PR disasters
-  in [category]", "[brand] missteps", "famous social fails". ALSO trigger
-  on audience-grounded creative ideation: "what would resonate with
-  [audience]", "social activation ideas for [X]", "creator brief around
-  [Y]". Do NOT trigger for paid ads (use Ad Intelligence), "what's trending
-  right now" queries (use Trends Research), or category-level dynamics
-  without specific cases sought ("state of [industry]" → web-research).
+description: "Social sentiment, perception, creators, virality and backlash. Use for \"what are people saying about [brand]\", \"how is [brand] perceived\", \"sentiment on [X]\", \"[brand] backlash\". Ads → Ad Intelligence; trending → Trends Research."
 ---
 
 # Social Intelligence

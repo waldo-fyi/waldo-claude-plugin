@@ -1,17 +1,6 @@
 ---
 name: data-analysis
-description: >-
-  Trigger when the user says "crunch the numbers", "compare Q3 vs Q4", "what
-  does this data show", "break down these numbers", "analyze this CSV",
-  "build a pivot", "calculate growth rate", "find outliers", provides a data
-  file, references workspace spreadsheets/reports, or pastes a table.
-  Performs calculations, statistical analysis, trend identification,
-  period-over-period comparisons, distribution analysis, and data
-  transformations on CSV, Excel, PDF tables, and JSON. Always load before
-  calling the file_repo_reader agent directly — never freelance it without
-  the skill's methodology. Do NOT
-  trigger for ad performance metrics (no API access to ad accounts) or
-  live brand signals (use Archival Knowledge).
+description: "Analyze CSV, Excel, PDF-table or JSON data: calculations, comparisons, outliers, pivots. Load before file_repo_reader: \"crunch the numbers\", \"analyze this CSV\", or a pasted table. Not ad metrics; brand signals → Archival Knowledge."
 ---
 
 # Data Analysis

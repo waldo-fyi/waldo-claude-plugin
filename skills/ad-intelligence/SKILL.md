@@ -1,19 +1,6 @@
 ---
 name: ad-intelligence
-description: >-
-  Trigger when the user says "what ads is [brand] running", "show me
-  [competitor] creatives", "how is [brand] advertising", "what's [brand]
-  saying in ads", "compare ad strategies", "ad library", "find ads for
-  [keyword]", or asks about competitor ads, paid media presence, ad creative,
-  ad messaging, hook/value-prop comparisons, or regional campaign mapping on
-  Meta/Google/LinkedIn — even without saying "ad". ALSO trigger on paid-creative
-  ideation framings: "paid campaign concept for [X]", "ad messaging brief",
-  "competitive paid angle", "where's the whitespace in [category]'s paid
-  creative", "draft an ad hook for [Y]" — these need live ad-library
-  grounding, never ideate paid creative from training alone. Load this skill
-  BEFORE running native WebSearch or calling individual ad MCP tools. Do NOT
-  trigger for ad performance metrics (ROAS, CTR, spend — not available);
-  defer to Social Intelligence for organic posts.
+description: "Live ad-library research (Meta/Google/LinkedIn): competitor creatives, messaging, paid-creative ideas; never ideate from training alone. Load before WebSearch or ad tools: \"what ads is [brand] running\". Not ad metrics; organic → Social Intelligence."
 ---
 
 # Ad Intelligence

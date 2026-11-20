@@ -1,19 +1,6 @@
 ---
 name: trends-research
-description: >-
-  Research what's trending — cultural shifts, emerging signals, viral
-  hashtags, forward-looking patterns — by running social trending tools,
-  the Waldo Trends database, and web search in parallel, then synthesizing
-  by trend rather than by source. Trigger on velocity-shaped prompts:
-  "what's trending", "what should we watch", "what's happening this
-  week/month", "what's on consumers' minds", "viral hashtags", "rising
-  topics", "emerging signals", "what's the media talking about". ALSO
-  trigger on trend-grounded ideation: "what should we build around right
-  now", "brief around a trending [topic]", "what's an emerging angle for
-  [X]". Always load this skill before calling trending MCP tools or
-  native WebSearch on trend-shaped queries — never ideate from training
-  alone. Do NOT trigger for steady-state brand deep dives (use Web
-  Research) or perception of a known brand (use Social Intelligence).
+description: "What's trending (cultural shifts, viral hashtags, emerging signals) across social, the Waldo Trends DB and the web; never ideate from training alone. Load before trending tools: \"what's trending\", \"rising topics\". Brand deep dives → Web Research."
 ---
 
 # Trends Research

@@ -1,22 +1,6 @@
 ---
 name: web-research
-description: >-
-  Trigger when the user says "research [topic]", "deep dive on [X]",
-  "compare [A] vs [B]", "audit [website]", "what does [brand] do", "draft
-  a POV on [topic]", "summarize this PDF", "how does [competitor]
-  position", or asks any open-ended brand/category/competitor question,
-  persona simulation, or demographic breakdown. ALSO trigger on
-  research-design / population framings: "% breakdown of [population]",
-  "representative sample of [region]", "who should I survey to reach
-  [audience]", "audience composition for research", "priority
-  populations". ALSO trigger on creative-ideation framings: "give me
-  ideas for [X]", "shape a campaign around [Y]", "brainstorm around
-  [topic]", "draft a creative brief for [Z]". POV, persona, creative-
-  ideation, and research-design prompts always need fresh research
-  grounding — never answer from training alone, never freelance native
-  WebSearch. Do NOT trigger for ad library (use Ad Intelligence), social
-  sentiment (use Social Intelligence), or trending queries (use Trends
-  Research).
+description: "Fresh web research on brands, categories, competitors, POVs, personas, ideas; never from training alone. For \"research [topic]\", \"audit [website]\", \"what does [brand] do\". Ads → Ad Intelligence, social → Social Intelligence, trends → Trends Research."
 ---
 
 # Web Research

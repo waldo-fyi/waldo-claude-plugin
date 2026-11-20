@@ -1,18 +1,6 @@
 ---
 name: archival-knowledge
-description: >-
-  Trigger when the user says "what insights do we have on [brand]", "show me
-  brand mentions", "pull up our [feed type]", "any signals about [topic]",
-  "what did we capture about [event]", "what feeds do we have", or
-  references a brand space. Searches Waldo workspace signals (brand
-  mentions, owned media, paid ads, category news, audience convos,
-  trending topics) and insight feeds. ALSO trigger on "build on what we
-  know" framings: "what do we already know about [X]", "pull our captured
-  POV on [topic]", "synthesize our captured signals on [Z]". Always load
-  before calling workspace MCP tools (space_list, feed_list,
-  feed_get_items, search_documents) directly. Do NOT trigger for live web
-  research (use Web Research), live social (use Social Intelligence), or
-  live trends (use Trends Research) — only captured workspace data.
+description: "Search Waldo's captured workspace signals and insight feeds. Load before workspace MCP tools: \"what insights do we have on [brand]\", \"what do we already know about [X]\". Live web → Web Research, social → Social Intelligence, trends → Trends Research."
 ---
 
 # Archival Knowledge
