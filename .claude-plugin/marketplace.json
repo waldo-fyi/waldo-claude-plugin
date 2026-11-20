@@ -1,0 +1,20 @@
+{
+  "name": "waldo-fyi",
+  "description": "Waldo's public Claude Code plugin marketplace.",
+  "owner": {
+    "name": "Waldo",
+    "url": "https://waldo.fyi"
+  },
+  "plugins": [
+    {
+      "name": "waldo-fyi",
+      "source": "./",
+      "description": "Waldo strategy agent skills for ad intelligence, social listening, web research, trends research, data analysis, and archival knowledge",
+      "author": {
+        "name": "Waldo"
+      },
+      "homepage": "https://waldo.fyi",
+      "license": "Apache-2.0"
+    }
+  ]
+}

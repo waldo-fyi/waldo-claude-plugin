@@ -18,8 +18,32 @@ Install via the Claude Code plugin marketplace:
 
 ```
 /plugin marketplace add waldo-fyi/waldo-claude-plugin
-/plugin install waldo-fyi
+/plugin install waldo-fyi@waldo-fyi
 ```
+
+The skills call the Waldo MCP connector, which the plugin adds for you. Sign in to it with your Waldo account through `/mcp` (select `plugin:waldo-fyi:waldo`, then authenticate); until you do, the skills load but have no tools to call.
+
+To offer the plugin to everyone working in a repository, commit this to its `.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "waldo-fyi": { "source": { "source": "github", "repo": "waldo-fyi/waldo-claude-plugin" } }
+  },
+  "enabledPlugins": { "waldo-fyi@waldo-fyi": true }
+}
+```
+
+## Getting updates
+
+New versions arrive when you refresh the marketplace:
+
+```
+/plugin marketplace update waldo-fyi
+/plugin update waldo-fyi@waldo-fyi
+```
+
+Or turn on auto-update for the `waldo-fyi` marketplace in `/plugin`, under Marketplaces; it's off by default for marketplaces outside Anthropic's own.
 
 ## License
 
