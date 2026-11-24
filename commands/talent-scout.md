@@ -2,7 +2,6 @@
 name: talent-scout
 description: "[social] Discover and vet creators, influencers, journalists, partnership talent — by topic, region, brand-fit. Audience composition, brand history, sample content."
 argument-hint: <topic, region, or brand-fit criteria>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:social-intelligence skill using the Skill tool.

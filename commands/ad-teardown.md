@@ -2,7 +2,6 @@
 name: ad-teardown
 description: "[ad] Tear down a competitor's paid creative across Meta, Google, and LinkedIn ad libraries — messaging, targeting, hooks, value props, regional plays."
 argument-hint: <brand or competitor name>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:ad-intelligence skill using the Skill tool.

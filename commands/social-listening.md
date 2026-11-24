@@ -2,7 +2,6 @@
 name: social-listening
 description: "[social] Listen to organic conversations across Reddit, Instagram, TikTok, X, Facebook, LinkedIn, YouTube — sentiment, viral content, creator activity, reputation."
 argument-hint: <brand or topic>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:social-intelligence skill using the Skill tool.

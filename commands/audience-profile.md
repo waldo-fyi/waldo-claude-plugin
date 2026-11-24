@@ -2,7 +2,6 @@
 name: audience-profile
 description: "[social] Build an audience profile — demographics, psychographics, daily-life snapshot, brand affinities, tensions, where to reach them. Grounded in social signals + search."
 argument-hint: <audience segment or target>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:social-intelligence skill using the Skill tool.

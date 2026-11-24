@@ -2,7 +2,6 @@
 name: deep-dive
 description: "[research] Multi-source deep-dive on a brand, category, industry, audience, or topic — market position, competitive landscape, recent moves, cultural signals."
 argument-hint: <brand, category, industry, audience, or topic>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:web-research skill using the Skill tool.

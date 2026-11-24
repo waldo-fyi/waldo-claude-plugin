@@ -2,7 +2,6 @@
 name: prospect-intel
 description: "[research] Cold new-business prospect research — company snapshot, org chart, executive profile, agency relationships, outreach hooks for BD/growth."
 argument-hint: <company or executive name>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:web-research skill using the Skill tool.

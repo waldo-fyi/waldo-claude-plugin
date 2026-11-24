@@ -2,7 +2,6 @@
 name: stress-test
 description: "[validation] Stress-test a hypothesis or positioning claim — adversarial evidence search, defensibility verdict (DEFENSIBLE / CONTESTED / WEAK) for pitch prep."
 argument-hint: <hypothesis or positioning to stress-test>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:web-research skill using the Skill tool.

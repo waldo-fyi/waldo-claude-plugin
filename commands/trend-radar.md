@@ -2,7 +2,6 @@
 name: trend-radar
 description: "[trends] Scan what's rising right now across TikTok, Google Trends, X, and Waldo's trends database — emerging signals, viral hashtags, cultural shifts, breakouts."
 argument-hint: <category, audience, market, or topic — optional>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:trends-research skill using the Skill tool.

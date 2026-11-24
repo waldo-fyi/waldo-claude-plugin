@@ -2,7 +2,6 @@
 name: data-analysis
 description: "[data] Analyze structured data (CSV, Excel, PDF tables, JSON) — calculations, comparisons, trend analysis, growth rates, pivot tables, distributions, outliers."
 argument-hint: <paste data, upload a file, or reference a workspace file>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:data-analysis skill using the Skill tool.

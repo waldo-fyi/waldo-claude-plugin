@@ -2,7 +2,6 @@
 name: check-signals
 description: "[archival] Search captured brand intelligence in your Waldo workspace — signal feeds (mentions, owned media, paid ads, news, trends) + insight feeds."
 argument-hint: <brand or topic>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:archival-knowledge skill using the Skill tool.

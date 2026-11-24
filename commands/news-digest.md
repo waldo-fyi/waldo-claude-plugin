@@ -2,7 +2,6 @@
 name: news-digest
 description: "[archival] Weekly digest of news, signals, and brand mentions from your Waldo workspace — what mattered, why it matters, what to watch next. Synthesis, not a feed dump."
 argument-hint: <brand or topic>
-allowed-tools: ["Skill"]
 ---
 
 Load the waldo-fyi:archival-knowledge skill using the Skill tool.
