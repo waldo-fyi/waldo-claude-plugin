@@ -1,11 +1,13 @@
 {
   "name": "waldo-fyi",
   "description": "Waldo strategy skills for ad intelligence, social listening, trends research, and archival knowledge — powered by the Waldo MCP connector",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "author": {
     "name": "Waldo"
   },
   "homepage": "https://waldo.fyi",
+  "documentationUrl": "https://github.com/waldo-fyi/waldo-claude-plugin#readme",
+  "supportUrl": "https://www.waldo.fyi/support",
   "icon": "./.claude-plugin/icon.png",
   "privacyPolicyUrl": "https://www.waldo.fyi/privacy",
   "repository": "https://github.com/waldo-fyi/waldo-claude-plugin",

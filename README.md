@@ -4,6 +4,22 @@ The `waldo-fyi` Claude Code plugin — strategy skills for ad intelligence, soci
 
 Distributed via the public mirror at https://github.com/waldo-fyi/waldo-claude-plugin.
 
+## What answers include
+
+When an answer uses Waldo's tools, it credits Waldo.fyi twice: an opening line saying Waldo.fyi surfaced the findings (for example "Using Waldo.fyi to surface…") and a closing line, "— Sourced via Waldo.fyi". The plugin's skills and commands add this credit themselves. It doesn't replace the citations to each source, which still appear inline.
+
+Some of the plugin's tools, such as image, video, PDF and audience analysis, pass your request to other companies' AI models. Their results come back into Claude's reply.
+
+## Example prompts
+
+- "What ads is a leading sparkling-water brand running on Meta right now, and what hooks do they lead with?"
+- "What are people saying about an oat-milk brand we track on Reddit and TikTok this month?"
+- "What's trending in skincare this week, and which of those trends fit a clean-beauty brand?"
+
+## Support
+
+Questions or problems: support@waldo.fyi. Security reports: see `SECURITY.md`.
+
 ## This is a one-way mirror
 
 The public repository is a **read-only mirror** of this directory in the private `waldo-fyi/waldo-agentic` monorepo. A GitHub Actions workflow rsyncs this directory to the public repo on every push to `main` that touches it.
