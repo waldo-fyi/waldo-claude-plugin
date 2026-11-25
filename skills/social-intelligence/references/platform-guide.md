@@ -40,7 +40,7 @@
 
 ## Unsupported Platforms
 
-Use `fetch_page` or web search as a fallback and note the reduced data reliability.
+Use your own web search or page reading, and note the reduced data reliability.
 
 ## Common Pitfalls
 

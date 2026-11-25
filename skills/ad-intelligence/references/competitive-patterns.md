@@ -12,7 +12,7 @@ Run all brand searches **in parallel**. Compare:
 
 ## Category Mapping
 
-1. Use `search_web` to identify key players in the category
+1. Use your own web search to identify key players in the category
 2. Suggest 3-5 brands and confirm with user
 3. Run ad library searches for each **in parallel**
 4. Synthesize into comparative view

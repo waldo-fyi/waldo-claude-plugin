@@ -9,7 +9,7 @@
     {
       "name": "waldo-fyi",
       "source": "./",
-      "description": "Waldo strategy agent skills for ad intelligence, social listening, web research, trends research, data analysis, and archival knowledge",
+      "description": "Waldo strategy skills for ad intelligence, social listening, trends research, and archival knowledge",
       "author": {
         "name": "Waldo"
       },

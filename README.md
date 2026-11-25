@@ -1,6 +1,6 @@
 # Waldo Claude Plugin
 
-The `waldo-fyi` Claude Code plugin — strategy-agent skills for ad intelligence, social listening, web research, trends research, data analysis, and archival knowledge — powered by the Waldo MCP connector at `https://mcp.waldo.fyi/strategy`.
+The `waldo-fyi` Claude Code plugin — strategy skills for ad intelligence, social listening, trends research, and archival knowledge — powered by the Waldo MCP connector at `https://mcp.waldo.fyi/strategy`. Open-web research and data analysis are left to your assistant's own tools.
 
 Distributed via the public mirror at https://github.com/waldo-fyi/waldo-claude-plugin.
 
@@ -78,7 +78,7 @@ If your organization restricts marketplaces with `strictKnownMarketplaces`, allo
     {
       "name": "waldo-fyi",
       "source": { "source": "github", "repo": "waldo-fyi/waldo-claude-plugin" },
-      "description": "Waldo strategy skills for ad intelligence, social listening, web research and more"
+      "description": "Waldo strategy skills for ad intelligence, social listening, trends research, and archival knowledge"
     }
   ]
 }
